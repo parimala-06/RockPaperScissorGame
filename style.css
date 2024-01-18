@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.stone{
+    background-image: url(images/stone.jpg);
+    width: fit-content;
+    height: fit-content;
+}
+
