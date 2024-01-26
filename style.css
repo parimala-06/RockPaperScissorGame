@@ -83,4 +83,16 @@ button:hover {
     color: blue;
 }
 
+.ScoreDisplay{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Single Day', cursive;
+    font-size: 30px;
+}
+
+.scorebox{
+    margin: 20px 40px;
+}
+
 
