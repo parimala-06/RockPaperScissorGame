@@ -20,8 +20,7 @@ h1{
     width: 250px;
     height: 250px;
     margin: 20px;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 p{
@@ -31,8 +30,8 @@ p{
 }
 
 .innerB{
-    margin: 50%;
-    padding: 0;
+    margin:auto;
+
     width: 200px;
     height: 200px;
     border-radius: 50%;
