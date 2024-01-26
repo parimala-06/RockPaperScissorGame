@@ -16,7 +16,7 @@ h1{
     align-items: center;
 }
 
-.btn{
+.btnDiv{
     width: 250px;
     height: 250px;
     margin: 20px;
@@ -29,14 +29,15 @@ p{
     font-size: 25px;
 }
 
-.innerB{
-    margin:auto;
+button{
+    
 
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-repeat: no-repeat;   
     background-position: center;
+    margin-left: 10%;
 }
 .stone{
     background-image: url("images/stone.jpg");
