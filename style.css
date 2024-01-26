@@ -30,15 +30,21 @@ p{
 }
 
 button{
-    
-
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-repeat: no-repeat;   
     background-position: center;
     margin-left: 10%;
+    transition: all 0.01s ease-in;
 }
+
+button:hover {
+  width: 205px;
+  height: 205px;
+  cursor: pointer;
+}
+
 .stone{
     background-image: url("images/stone.jpg");
 }
@@ -49,5 +55,28 @@ button{
 
 .scissor{
     background-image: url("images/scissor.jpg");
+}
+
+#PlayerDisplay, #ComputerDisplay{
+    margin: 20px 0;
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#result{
+    color: blue;
+    margin-top: 40px 0;
+    font-family: 'Single Day', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.green{
+    color: rgb(10, 218, 10);
+}
+
+.red{
+    color: red;
 }
 

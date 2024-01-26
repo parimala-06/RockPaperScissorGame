@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -15,23 +16,20 @@
     <div class="container">
     
         <div class = "btnDiv">
-            <button class=" innerB stone"></button>
+            <button class="innerB stone" onclick="playGame('stone')"></button>
             <p>Stone</p>
         </div>
         <div class="btnDiv">
-            <button class=" innerB paper"></button>
-            <p>paper</p>
+            <button class="innerB paper" onclick="playGame('paper')"></button>
+            <p>Paper</p>
         </div>
         <div class = "btnDiv">
-            <button class="innerB scissor"></button>
-            <p>scissor</p>
+            <button class="innerB scissor" onclick="playGame('scissor')"></button>
+            <p>Scissor</p>
         </div>
     </div>
-    
-    <p>Your Score:</p>
-
-    <p>Computer Score:</p>
-
-    <p>Start the game!</p> <!-- should change according to the winner -->
+    <div id="PlayerDisplay">PLAYER:</div>
+    <div id="ComputerDisplay">COMPUTER:</div>
+    <div id="result">START</div>
 </body>
 </html>
