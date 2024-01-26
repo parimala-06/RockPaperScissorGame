@@ -64,19 +64,23 @@ button:hover {
     font-size: 30px;
 }
 
-#result{
-    color: blue;
+#ResultDisplay{
     margin-top: 40px 0;
     font-family: 'Single Day', cursive;
     text-align: center;
     font-size: 50px;
 }
 
-.green{
-    color: rgb(10, 218, 10);
+.greencolor{
+    color: rgb(0, 151, 0);
 }
 
-.red{
+.redcolor{
     color: red;
 }
+
+.bluecolor{
+    color: blue;
+}
+
 
